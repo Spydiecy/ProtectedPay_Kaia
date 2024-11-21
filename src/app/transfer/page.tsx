@@ -130,7 +130,7 @@ export default function TransferPage() {
           </h1>
           
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Send funds securely to any address or username on the Taiko network
+            Send funds securely to any address or username on the KAIA network
           </p>
         </motion.div>
 

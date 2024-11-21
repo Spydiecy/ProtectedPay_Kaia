@@ -51,7 +51,7 @@ export const WalletProvider: React.FC<WalletProviderProps> = ({ children }) => {
         await window.ethereum.request({ method: 'eth_requestAccounts' });
         const provider = new ethers.providers.Web3Provider(window.ethereum);
         
-        // Check if we're on the correct network (Taiko testnet)
+        // Check if we're on the correct network (KAIA testnet)
         const network = await provider.getNetwork();
         if (network.chainId !== 1001) { // KAIA testnet chain ID
           try {
