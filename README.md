@@ -2,7 +2,7 @@
 
 ProtectedPay is a comprehensive DeFi platform on the KAIA blockchain that provides secure transfers, group payments, and smart savings features. Built with advanced security and user experience in mind, it offers multiple ways to manage and protect your crypto assets.
 
-![image](https://github.com/user-attachments/assets/407d37a4-f4bc-42a2-9a0b-f96e2b632166)
+![image](https://github.com/user-attachments/assets/bbe02134-257b-4362-8e6b-9e3c04147f82)
 
 ## Key Features
 
@@ -36,21 +36,21 @@ ProtectedPay is a comprehensive DeFi platform on the KAIA blockchain that provid
 ## How It Works
 
 ### Secure Transfers
-![image](https://github.com/user-attachments/assets/a313e670-ec07-444a-931a-f1b4b0a0d674)
+![image](https://github.com/user-attachments/assets/bb8a8848-2685-48f5-a496-ecf01e164aa0)
 1. Send funds to username or address
 2. Add remarks for context
 3. Recipient claims funds
 4. Option to refund if unclaimed
 
 ### Group Payments
-![image](https://github.com/user-attachments/assets/a1616cae-5a1e-459f-b301-06d67942749c)
+![image](https://github.com/user-attachments/assets/a7e4f495-c2bb-44d6-9507-1cc2d1c71702)
 1. Create payment with target amount
 2. Set number of participants
 3. Members contribute their share
 4. Automatic distribution when complete
 
 ### Savings Pots
-![image](https://github.com/user-attachments/assets/84cd92eb-451e-4c8d-9336-4203b10da6f4)
+![image](https://github.com/user-attachments/assets/d0ba2f34-67a1-4c03-98aa-13210fa17729)
 1. Create pot with target amount
 2. Add funds progressively
 3. Track savings progress
@@ -58,7 +58,7 @@ ProtectedPay is a comprehensive DeFi platform on the KAIA blockchain that provid
 
 ## User Interface
 
-![image](https://github.com/user-attachments/assets/db1aeac5-b3e7-4eff-95b5-b3e0ee964d55)
+![image](https://github.com/user-attachments/assets/987cd9e6-4284-4b6e-9c42-735cd59e2845)
 
 ### Modern Design
 - Dark theme with neon accents
@@ -90,7 +90,7 @@ Watch ProtectedPay in action:
 ## Smart Contract
 
 Deployed on KAIA:
-- Contract Address: 0xCa36dD890F987EDcE1D6D7C74Fb9df627c216BF6
+- Contract Address: 0xca36dd890f987edce1d6d7c74fb9df627c216bf6
 - Verified on KAIA Explorer
 
 ## Support
