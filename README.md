@@ -85,7 +85,7 @@ ProtectedPay is a comprehensive DeFi platform on the KAIA blockchain that provid
 ## Video Demo
 
 Watch ProtectedPay in action:
-[Demo Video](video_link)
+[Demo Video](https://youtu.be/kQctR6ypspI)
 
 ## Smart Contract
 
