@@ -53,11 +53,11 @@ export const WalletProvider: React.FC<WalletProviderProps> = ({ children }) => {
         
         // Check if we're on the correct network (Taiko testnet)
         const network = await provider.getNetwork();
-        if (network.chainId !== 167009) { // Taiko testnet chain ID
+        if (network.chainId !== 1001) { // KAIA testnet chain ID
           try {
             await window.ethereum.request({
               method: 'wallet_switchEthereumChain',
-              params: [{ chainId: '0x28c61' }], // 1001 in hexadecimal
+              params: [{ chainId: '0x3E9' }], // 1001 in hexadecimal
             });
           } catch (switchError) {
             // Ensure switchError is an object with a code property
@@ -68,15 +68,15 @@ export const WalletProvider: React.FC<WalletProviderProps> = ({ children }) => {
                 await window.ethereum.request({
                   method: 'wallet_addEthereumChain',
                   params: [{
-                    chainId: '0x28c61',
-                    chainName: 'Taiko Testnet',
+                    chainId: '0x3E9',
+                    chainName: 'KAIA Testnet',
                     nativeCurrency: {
-                      name: 'ETH',
-                      symbol: 'ETH',
+                      name: 'KAIA',
+                      symbol: 'KAIA',
                       decimals: 18
                     },
-                    rpcUrls: ['https://rpc.hekla.taiko.xyz/'],
-                    blockExplorerUrls: ['https://hekla.taikoscan.network/'],
+                    rpcUrls: ['https://kaia-kairos.blockpi.network/v1/rpc/public'],
+                    blockExplorerUrls: ['https://kairos.kaiascope.com/'],
                   }],
                 });
               } else {
